@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: searcher
+  name: AIPS
   description: Searcher
   tags:
-    - go
+    - python
 spec:
   type: service
   lifecycle: production
