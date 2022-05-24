@@ -5,6 +5,7 @@ metadata:
   description: Searcher
   tags:
     - python
+    - java
 spec:
   type: service
   lifecycle: production
