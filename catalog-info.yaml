@@ -1,13 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage
+  name: vfe
   description: |
-    Backstage is an open-source developer portal that puts the developer experience first.
+    an application that does stuff.
   links:
-    - title: Website
+    - title: Docs
       url: http://backstage.io
-    - title: Documentation
+    - title: Monitoring
       url: https://backstage.io/docs
     - title: Storybook
       url: https://backstage.io/storybook
