@@ -1,21 +1,18 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: vfe
-  description: an application that does stuff.
-  tags:
-    - react
-    - cra
+  name: petstore
+  # This is an extra long description
+  description: The Petstore is an example API used to show features of the OpenAPI spec.
   links:
-    - title: Docs
-      url: http://backstage.io
-    - title: Monitoring
-      url: https://backstage.io/docs
-    - title: Storybook
-      url: https://backstage.io/storybook
-    - title: Discord Chat
-      url: https://discord.com/invite/EBHEGzX
-  annotations:
-    github.com/project-slug: backstage/backstage
-    backstage.io/techdocs-ref: dir:.
-    lighthouse.com/website-url: https://backstage.io
+    - url: https://github.com/swagger-api/swagger-petstore
+      title: GitHub Repo
+      icon: github
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-c
+  providesApis:
+    - petstore
+    - streetlights
+    - hello-world
