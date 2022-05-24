@@ -2,8 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: vfe
-  description: |
-    an application that does stuff.
+  description: an application that does stuff.
   tags:
     - react
     - cra
