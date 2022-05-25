@@ -1,17 +1,17 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: Shutterstock
-  description: Shutterstock
+  name: CompanyStock
+  description: CompanyStock
   links:
-    - url: http://www.shutterstock.com/
+    - url: http://www.CompanyStock.com/
       title: Website
     - url: https://thelens/
       title: Intranet
 spec:
   type: organization
   profile:
-    displayName: Shutterstock
+    displayName: CompanyStock
     email: info@example.com
     picture: https://avatars.dicebear.com/api/identicon/info@example.com.svg?background=%23fff&margin=25
   children: [infrastructure]
