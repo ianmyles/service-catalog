@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: shuttercorp
-  description: The shutter-corp organization
+  description: The shuttercorp organization
   links:
     - url: http://www.shuttercorp.com/
       title: Website

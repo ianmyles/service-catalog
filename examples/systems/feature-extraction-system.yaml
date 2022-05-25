@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: feature-extraction-application
+  description: Everything related extracting features from all Assets
+  tags:
+    - feature-extraction
+spec:
+  owner: data-3
+  domain: ai
