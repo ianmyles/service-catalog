@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: Data Org
+  name: dataorg
   description: The data department
 spec:
   type: department

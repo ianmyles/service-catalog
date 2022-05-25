@@ -9,5 +9,5 @@ spec:
     displayName: Data Science
     email: ds@email.com
     # Intentional no picture for testing
-  parent: data
+  parent: dataorg
   children: [data-3, team-d]
