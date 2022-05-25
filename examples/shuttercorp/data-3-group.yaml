@@ -6,7 +6,7 @@ metadata:
 spec:
   type: team
   profile:
-    displayName: Team C
+    displayName: Data 3
     email: data-3@example.com
     picture: https://avatars.dicebear.com/api/identicon/data-3@example.com.svg?background=%23fff&margin=25
   parent: aiplatforms
