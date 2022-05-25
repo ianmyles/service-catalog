@@ -28,5 +28,5 @@ spec:
     - ./datascience-group.yaml
     - ./team-a-group.yaml
     - ./team-b-group.yaml
-    - ./team-c-group.yaml
+    - ./data-3-group.yaml
     - ./team-d-group.yaml
