@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: www-shuttercorp
+  description: shuttercorp main website
+spec:
+  type: website
+  lifecycle: production
+  owner: data-3
+  system: artist-engagement-portal
+  consumesApis: ['component:artist-lookup']
