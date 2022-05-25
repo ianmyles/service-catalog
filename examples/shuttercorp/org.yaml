@@ -1,0 +1,32 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: shuttercorp
+  description: The shutter-corp organization
+  links:
+    - url: http://www.shuttercorp.com/
+      title: Website
+    - url: https://meta.wikimedia.org/wiki/
+      title: Intranet
+spec:
+  type: organization
+  profile:
+    displayName: Shutter Corp
+    email: info@example.com
+    picture: https://avatars.dicebear.com/api/identicon/info@example.com.svg?background=%23fff&margin=25
+  children: [data]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: example-groups
+  description: A collection of all Backstage example Groups
+spec:
+  targets:
+    - ./aiplatforms-group.yaml
+    - ./data-group.yaml
+    - ./datascience-group.yaml
+    - ./team-a-group.yaml
+    - ./team-b-group.yaml
+    - ./team-c-group.yaml
+    - ./team-d-group.yaml

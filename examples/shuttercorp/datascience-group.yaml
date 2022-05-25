@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: datascience
+  description: The datascience sub-department
+spec:
+  type: sub-department
+  profile:
+    displayName: Data Science
+    email: ds@email.com
+    # Intentional no picture for testing
+  parent: data
+  children: [team-c, team-d]
