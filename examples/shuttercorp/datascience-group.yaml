@@ -8,6 +8,7 @@ spec:
   profile:
     displayName: Data Science
     email: ds@email.com
+    slack: #slack
     # Intentional no picture for testing
   parent: dataorg
   children: [data-3, team-d]
