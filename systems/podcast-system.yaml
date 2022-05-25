@@ -1,8 +1,0 @@
-apiVersion: backstage.io/v1alpha1
-kind: System
-metadata:
-  name: SDP Kafka
-  description:  Data Platform
-spec:
-  owner: AI Platform & Features
-  domain: playback
