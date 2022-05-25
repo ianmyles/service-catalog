@@ -34,5 +34,5 @@ spec:
   lifecycle: production
   owner: data-3
   system: feature-extraction
-  dependsOn: ['resource:artists-db']
+  dependsOn: ['resource:kafka']
   apiConsumedBy: ['component:www-artist']
