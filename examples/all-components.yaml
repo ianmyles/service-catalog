@@ -19,3 +19,5 @@ spec:
     - ./components/wayback-archive-storage-component.yaml
     - ./components/wayback-search-component.yaml
     - ./components/feature-extraction-infra.yaml
+    - ./components/node-sdp-component.yaml
+    - ./components/sdp-core-component.yaml
