@@ -9,5 +9,5 @@ spec:
     displayName: AI Platforms
     email: backstage@example.com
     picture: https://avatars.dicebear.com/api/identicon/backstage@example.com.svg?background=%23fff&margin=25
-  parent: data
+  parent: dataorg
   children: [team-a, team-b]
