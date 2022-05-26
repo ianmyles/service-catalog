@@ -6,3 +6,6 @@ metadata:
 spec:
   targets:
     - ./resources/artists-db-resource.yaml
+    - ./resources/kafka-resource.yaml
+    - ./resources/kafka-resource.yaml
+    - ./resources/snowflake-resource.yaml
