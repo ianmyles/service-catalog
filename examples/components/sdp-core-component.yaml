@@ -38,6 +38,6 @@ spec:
   type: service
   lifecycle: production
   owner: data-3
-  system: feature-extraction
+  system: sdp
   dependsOn: ['resource:kafka']
-  apiConsumedBy: ['component:www-artist']
+  apiConsumedBy: 
