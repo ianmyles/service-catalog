@@ -5,7 +5,7 @@ metadata:
   description: Clients for consuming from and producing to SDP
   tags:
     - java
-    - REST
+    - rest
   links:
     - url: https://github.shuttercorp.net/data/node-sdp-clients
       title: Code Repo
