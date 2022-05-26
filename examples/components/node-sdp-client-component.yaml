@@ -37,4 +37,3 @@ spec:
   owner: data-3
   system: sdp
   dependsOn: ['resource:kafka']
-  apiConsumedBy: 
