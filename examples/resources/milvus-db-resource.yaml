@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: milvus-db
+  description: Stores Vectors and calculates distance metrics
+spec:
+  type: database
+  owner: data3
+  system: feature-extraction
