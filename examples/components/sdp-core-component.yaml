@@ -7,7 +7,6 @@ metadata:
     - python
     - lambdas
     - terraform
-    - rest
   links:
     - url: https://github.shuttercorp.net/data/sdp-core
       title: Code Repo
