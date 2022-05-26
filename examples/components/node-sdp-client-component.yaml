@@ -1,0 +1,40 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: node-sdp-clients
+  description: Clients for consuming from and producing to SDP
+  tags:
+    - java
+    - REST
+  links:
+    - url: https://github.shuttercorp.net/data/node-sdp-clients
+      title: Code Repo
+      icon: web
+    - url: https://example.com/group
+      title: Example Group
+      icon: group
+    - url: https://example.com/cloud
+      title: Link with Cloud Icon
+      icon: cloud
+    - url: https://example.com/dashboard
+      title: Dashboard
+      icon: dashboard
+    - url: https://example.com/help
+      title: Support
+      icon: help
+    - url: https://example.com/web
+      title: Website
+      icon: web
+    - url: https://pagerduty.com
+      title: PagerDuty
+      icon: alert
+    - url: https://example.com/alert
+      title: Alerts
+      icon: alert
+spec:
+  type: service
+  lifecycle: production
+  owner: data-3
+  system: sdp
+  dependsOn: ['resource:kafka']
+  apiConsumedBy: 
