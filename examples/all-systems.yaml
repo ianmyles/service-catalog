@@ -9,3 +9,4 @@ spec:
     - ./systems/audio-playback-system.yaml
     - ./systems/podcast-system.yaml
     - ./systems/feature-extraction-system.yaml
+    - ./systems/sdp-system.yaml
