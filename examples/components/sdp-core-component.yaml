@@ -1,0 +1,43 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sdp-core
+  description: This is the home of the core/common bits for the Shutterstock Data Platform (SDP).  This library takes care of converting JSON to AVRO and integrations with schema registry.
+  tags:
+    - python
+    - lambdas
+    - terraform
+    - JSON
+    - REST
+  links:
+    - url: https://github.shuttercorp.net/data/sdp-core
+      title: Code Repo
+      icon: web
+    - url: https://example.com/group
+      title: Example Group
+      icon: group
+    - url: https://example.com/cloud
+      title: Link with Cloud Icon
+      icon: cloud
+    - url: https://example.com/dashboard
+      title: Dashboard
+      icon: dashboard
+    - url: https://example.com/help
+      title: Support
+      icon: help
+    - url: https://example.com/web
+      title: Website
+      icon: web
+    - url: https://pagerduty.com
+      title: PagerDuty
+      icon: alert
+    - url: https://example.com/alert
+      title: Alerts
+      icon: alert
+spec:
+  type: service
+  lifecycle: production
+  owner: data-3
+  system: feature-extraction
+  dependsOn: ['resource:kafka']
+  apiConsumedBy: ['component:www-artist']
