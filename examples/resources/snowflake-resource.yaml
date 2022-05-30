@@ -6,4 +6,4 @@ metadata:
 spec:
   type: database
   owner: data-3
-  system: 
+  system: sdp

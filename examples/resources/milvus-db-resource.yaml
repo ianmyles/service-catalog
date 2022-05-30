@@ -5,5 +5,5 @@ metadata:
   description: Stores Vectors and calculates distance metrics
 spec:
   type: database
-  owner: data3
+  owner: data-3
   system: feature-extraction
