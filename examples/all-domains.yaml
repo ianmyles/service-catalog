@@ -5,6 +5,6 @@ metadata:
   description: A collection of all Backstage example domains
 spec:
   targets:
-    - ./domains/ai.yaml
+    - ./domains/ai-domain.yaml
     - ./domains/artists-domain.yaml
     - ./domains/playback-domain.yaml
